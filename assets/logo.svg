@@ -1,81 +1,79 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 440" width="400" height="440">
-  <style>
-    .sketch { stroke-linecap: round; stroke-linejoin: round; }
-  </style>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 370" width="320" height="370">
 
-  <!-- Curly tail (Shiba's signature, like Ponytail's ponytail) -->
-  <path d="M 300 310 Q 370 280 380 220 Q 390 160 345 140 Q 315 128 305 155"
-        fill="none" stroke="black" stroke-width="18" class="sketch" stroke-linecap="round"/>
-  <path d="M 300 310 Q 370 280 380 220 Q 390 160 345 140 Q 315 128 305 155"
-        fill="none" stroke="white" stroke-width="9" class="sketch" stroke-linecap="round"/>
+  <!-- Curly tail (Shiba signature, right side) -->
+  <path d="M 258 300 Q 308 265 308 210 Q 308 160 275 148 Q 252 142 248 162"
+        fill="none" stroke="#1a1a1a" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 258 300 Q 308 265 308 210 Q 308 160 275 148 Q 252 142 248 162"
+        fill="none" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Head shadow/body base -->
+  <circle cx="152" cy="215" r="128" fill="#e8e8e8"/>
 
   <!-- Main head -->
-  <path d="M 200 65 Q 285 55 325 130 Q 365 210 340 305 Q 315 390 200 400 Q 85 390 60 305 Q 35 210 75 130 Q 115 55 200 65 Z"
-        fill="white" stroke="black" stroke-width="9" class="sketch"/>
+  <circle cx="152" cy="210" r="128" fill="white" stroke="#1a1a1a" stroke-width="8"/>
 
   <!-- Left ear (outer) -->
-  <path d="M 105 145 Q 68 70 105 30 Q 130 5 168 68 Q 155 100 130 125 Z"
-        fill="white" stroke="black" stroke-width="8" class="sketch"/>
-  <!-- Left ear (inner) -->
-  <path d="M 112 138 Q 82 78 110 45 Q 128 22 160 75 Q 148 100 125 120 Z"
-        fill="#d8d8d8"/>
+  <path d="M 72 128 Q 42 52 100 28 Q 148 8 162 95"
+        fill="white" stroke="#1a1a1a" stroke-width="8" stroke-linejoin="round" fill-rule="evenodd"/>
+  <!-- Left ear (inner - light gray) -->
+  <path d="M 82 122 Q 60 62 105 44 Q 142 28 153 98"
+        fill="#d0d0d0"/>
 
   <!-- Right ear (outer) -->
-  <path d="M 295 145 Q 332 70 295 30 Q 270 5 232 68 Q 245 100 270 125 Z"
-        fill="white" stroke="black" stroke-width="8" class="sketch"/>
+  <path d="M 232 128 Q 262 52 204 28 Q 156 8 142 95"
+        fill="white" stroke="#1a1a1a" stroke-width="8" stroke-linejoin="round"/>
   <!-- Right ear (inner) -->
-  <path d="M 288 138 Q 318 78 290 45 Q 272 22 240 75 Q 252 100 275 120 Z"
-        fill="#d8d8d8"/>
+  <path d="M 222 122 Q 244 62 199 44 Q 162 28 151 98"
+        fill="#d0d0d0"/>
 
-  <!-- Left brow mark (Shiba characteristic) -->
-  <ellipse cx="148" cy="188" rx="28" ry="10" fill="#333" transform="rotate(-12, 148, 188)"/>
-  <!-- Right brow mark -->
-  <ellipse cx="252" cy="188" rx="28" ry="10" fill="#333" transform="rotate(12, 252, 188)"/>
+  <!-- Muzzle (Shiba's white snout area, slightly raised feel) -->
+  <ellipse cx="152" cy="262" rx="68" ry="52" fill="#f2f2f2" stroke="#c8c8c8" stroke-width="3"/>
 
-  <!-- Left eye dark patch -->
-  <ellipse cx="148" cy="215" rx="36" ry="27" fill="#1a1a1a"/>
-  <!-- Right eye dark patch -->
-  <ellipse cx="252" cy="215" rx="36" ry="27" fill="#1a1a1a"/>
+  <!-- LEFT EYE -->
+  <!-- Outer white -->
+  <circle cx="107" cy="200" r="30" fill="white" stroke="#1a1a1a" stroke-width="6"/>
+  <!-- Dark iris/pupil -->
+  <circle cx="107" cy="203" r="20" fill="#111"/>
+  <!-- Main shine (big white oval, upper-left) -->
+  <ellipse cx="98" cy="194" rx="9" ry="7" fill="white"/>
+  <!-- Secondary small shine -->
+  <circle cx="118" cy="196" r="3.5" fill="white"/>
 
-  <!-- Left eye white -->
-  <ellipse cx="148" cy="216" rx="24" ry="17" fill="white"/>
-  <!-- Left pupil -->
-  <ellipse cx="148" cy="218" rx="16" ry="13" fill="#0d0d0d"/>
-  <!-- Left eye shine -->
-  <circle cx="141" cy="213" r="5" fill="white"/>
+  <!-- RIGHT EYE -->
+  <!-- Outer white -->
+  <circle cx="197" cy="200" r="30" fill="white" stroke="#1a1a1a" stroke-width="6"/>
+  <!-- Dark iris/pupil -->
+  <circle cx="197" cy="203" r="20" fill="#111"/>
+  <!-- Main shine -->
+  <ellipse cx="188" cy="194" rx="9" ry="7" fill="white"/>
+  <!-- Secondary small shine -->
+  <circle cx="208" cy="196" r="3.5" fill="white"/>
 
-  <!-- Right eye white -->
-  <ellipse cx="252" cy="216" rx="24" ry="17" fill="white"/>
-  <!-- Right pupil -->
-  <ellipse cx="252" cy="218" rx="16" ry="13" fill="#0d0d0d"/>
-  <!-- Right eye shine -->
-  <circle cx="245" cy="213" r="5" fill="white"/>
+  <!-- Shiba brow marks (small oval above each eye, very subtle) -->
+  <ellipse cx="107" cy="170" rx="13" ry="5" fill="#aaa" transform="rotate(-8 107 170)"/>
+  <ellipse cx="197" cy="170" rx="13" ry="5" fill="#aaa" transform="rotate(8 197 170)"/>
 
-  <!-- Muzzle (lighter area) -->
-  <ellipse cx="200" cy="305" rx="68" ry="52" fill="#f4f4f4" stroke="black" stroke-width="5" class="sketch"/>
-
-  <!-- Nose -->
-  <path d="M 176 272 Q 200 262 224 272 Q 218 292 200 295 Q 182 292 176 272 Z"
-        fill="black"/>
+  <!-- Nose (small, cute button) -->
+  <path d="M 138 242 Q 152 234 166 242 Q 160 256 152 258 Q 144 256 138 242 Z" fill="#1a1a1a"/>
   <!-- Nose highlight -->
-  <ellipse cx="191" cy="273" rx="6" ry="4" fill="#666"/>
+  <ellipse cx="145" cy="242" rx="4" ry="3" fill="#555"/>
 
-  <!-- Mouth -->
-  <path d="M 188 298 Q 200 312 212 298"
-        fill="none" stroke="black" stroke-width="5" class="sketch"/>
+  <!-- Happy mouth -->
+  <path d="M 136 262 Q 152 278 168 262"
+        fill="none" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
 
-  <!-- Left cheek fur lines -->
-  <path d="M 72 270 Q 84 263 94 272" fill="none" stroke="black" stroke-width="4" class="sketch"/>
-  <path d="M 68 292 Q 82 284 93 293" fill="none" stroke="black" stroke-width="4" class="sketch"/>
-  <path d="M 72 313 Q 85 306 95 315" fill="none" stroke="black" stroke-width="4" class="sketch"/>
+  <!-- Cheek blush (soft light circles for cuteness) -->
+  <circle cx="70"  cy="242" r="26" fill="#e0e0e0" opacity="0.65"/>
+  <circle cx="234" cy="242" r="26" fill="#e0e0e0" opacity="0.65"/>
 
-  <!-- Forehead texture -->
-  <circle cx="185" cy="152" r="3" fill="#aaa"/>
-  <circle cx="200" cy="143" r="2.5" fill="#bbb"/>
-  <circle cx="215" cy="152" r="3" fill="#aaa"/>
-  <circle cx="193" cy="163" r="2" fill="#ccc"/>
-  <circle cx="207" cy="163" r="2" fill="#ccc"/>
+  <!-- Left cheek whisker lines -->
+  <line x1="25" y1="233" x2="62"  y2="237" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="22" y1="246" x2="60"  y2="248" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="27" y1="258" x2="63"  y2="257" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- Neck/chin area texture -->
-  <path d="M 175 380 Q 200 392 225 380" fill="none" stroke="#ccc" stroke-width="3" class="sketch"/>
+  <!-- Right cheek whisker lines -->
+  <line x1="279" y1="233" x2="242" y2="237" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="282" y1="246" x2="244" y2="248" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="277" y1="258" x2="241" y2="257" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+
 </svg>
