@@ -1,5 +1,8 @@
 <div align="center">
-  <img src="assets/logo.png" width="260" alt="MetaBoost Shiba"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+    <img src="assets/logo.png" width="280" alt="MetaBoost Shiba"/>
+  </picture>
   <h1>MetaBoost</h1>
   <p><em>He posts once. Everyone sees it.</em></p>
 
