@@ -1,79 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 370" width="320" height="370">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 400" width="320" height="400">
 
-  <!-- Curly tail (Shiba signature, right side) -->
-  <path d="M 258 300 Q 308 265 308 210 Q 308 160 275 148 Q 252 142 248 162"
-        fill="none" stroke="#1a1a1a" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M 258 300 Q 308 265 308 210 Q 308 160 275 148 Q 252 142 248 162"
-        fill="none" stroke="white" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Neck / upper chest (signals "dog portrait") -->
+  <path d="M 105 372 Q 105 325 132 310 L 188 310 Q 215 325 215 372"
+        fill="white" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
 
-  <!-- Head shadow/body base -->
-  <circle cx="152" cy="215" r="128" fill="#e8e8e8"/>
+  <!-- Head — wide at cheeks, slightly wedge-shaped like a real Shiba -->
+  <path d="M 160 68
+           C 215 62, 278 108, 280 178
+           C 284 255, 248 322, 160 328
+           C 72  322, 36  255, 40  178
+           C 42  108, 105 62, 160 68 Z"
+        fill="white" stroke="#111" stroke-width="8"/>
 
-  <!-- Main head -->
-  <circle cx="152" cy="210" r="128" fill="white" stroke="#1a1a1a" stroke-width="8"/>
+  <!-- LEFT EAR — small, compact triangle, slightly forward-tilting -->
+  <path d="M 88 118 L 75 48 L 148 98 Z"
+        fill="white" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M 94 114 L 84 58 L 141 100 Z" fill="#c0c0c0"/>
 
-  <!-- Left ear (outer) -->
-  <path d="M 72 128 Q 42 52 100 28 Q 148 8 162 95"
-        fill="white" stroke="#1a1a1a" stroke-width="8" stroke-linejoin="round" fill-rule="evenodd"/>
-  <!-- Left ear (inner - light gray) -->
-  <path d="M 82 122 Q 60 62 105 44 Q 142 28 153 98"
-        fill="#d0d0d0"/>
+  <!-- RIGHT EAR — mirror of left -->
+  <path d="M 232 118 L 245 48 L 172 98 Z"
+        fill="white" stroke="#111" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M 226 114 L 236 58 L 179 100 Z" fill="#c0c0c0"/>
 
-  <!-- Right ear (outer) -->
-  <path d="M 232 128 Q 262 52 204 28 Q 156 8 142 95"
-        fill="white" stroke="#1a1a1a" stroke-width="8" stroke-linejoin="round"/>
-  <!-- Right ear (inner) -->
-  <path d="M 222 122 Q 244 62 199 44 Q 162 28 151 98"
-        fill="#d0d0d0"/>
+  <!-- Forehead shading (Shiba's orange fur zone = medium gray) -->
+  <path d="M 108 132 Q 160 118 212 132 Q 222 162 212 188 Q 160 175 108 188 Q 98 162 108 132 Z"
+        fill="#d8d8d8" opacity="0.9"/>
 
-  <!-- Muzzle (Shiba's white snout area, slightly raised feel) -->
-  <ellipse cx="152" cy="262" rx="68" ry="52" fill="#f2f2f2" stroke="#c8c8c8" stroke-width="3"/>
+  <!-- URAJIRO — large white muzzle area, Shiba's #1 identifier -->
+  <!-- Extends up to the cheeks on both sides -->
+  <ellipse cx="160" cy="270" rx="95" ry="68" fill="#f6f6f6" stroke="#c0c0c0" stroke-width="3"/>
 
-  <!-- LEFT EYE -->
-  <!-- Outer white -->
-  <circle cx="107" cy="200" r="30" fill="white" stroke="#1a1a1a" stroke-width="6"/>
-  <!-- Dark iris/pupil -->
-  <circle cx="107" cy="203" r="20" fill="#111"/>
-  <!-- Main shine (big white oval, upper-left) -->
-  <ellipse cx="98" cy="194" rx="9" ry="7" fill="white"/>
-  <!-- Secondary small shine -->
-  <circle cx="118" cy="196" r="3.5" fill="white"/>
+  <!-- Puffy cheeks (Shiba's fat cheeks) -->
+  <ellipse cx="55"  cy="240" rx="32" ry="28" fill="#f0f0f0" stroke="#c8c8c8" stroke-width="2"/>
+  <ellipse cx="265" cy="240" rx="32" ry="28" fill="#f0f0f0" stroke="#c8c8c8" stroke-width="2"/>
 
-  <!-- RIGHT EYE -->
-  <!-- Outer white -->
-  <circle cx="197" cy="200" r="30" fill="white" stroke="#1a1a1a" stroke-width="6"/>
-  <!-- Dark iris/pupil -->
-  <circle cx="197" cy="203" r="20" fill="#111"/>
-  <!-- Main shine -->
-  <ellipse cx="188" cy="194" rx="9" ry="7" fill="white"/>
-  <!-- Secondary small shine -->
-  <circle cx="208" cy="196" r="3.5" fill="white"/>
+  <!-- Eye shadow patches above eyes (darker fur marking) -->
+  <ellipse cx="118" cy="180" rx="26" ry="10" fill="#b8b8b8" transform="rotate(-10 118 180)"/>
+  <ellipse cx="202" cy="180" rx="26" ry="10" fill="#b8b8b8" transform="rotate( 10 202 180)"/>
 
-  <!-- Shiba brow marks (small oval above each eye, very subtle) -->
-  <ellipse cx="107" cy="170" rx="13" ry="5" fill="#aaa" transform="rotate(-8 107 170)"/>
-  <ellipse cx="197" cy="170" rx="13" ry="5" fill="#aaa" transform="rotate(8 197 170)"/>
+  <!-- LEFT EYE — almond-shaped, slightly squinted (Shiba smug look) -->
+  <!-- Outer white of eye -->
+  <path d="M 92 196 Q 118 178 144 196 Q 132 214 118 212 Q 104 214 92 196 Z"
+        fill="white" stroke="#111" stroke-width="5"/>
+  <!-- Iris/pupil, dark -->
+  <ellipse cx="118" cy="197" rx="16" ry="13" fill="#111"/>
+  <!-- Shine -->
+  <ellipse cx="110" cy="191" rx="6" ry="5" fill="white"/>
+  <!-- Lower lid line for squint character -->
+  <path d="M 92 196 Q 118 208 144 196" fill="none" stroke="#111" stroke-width="3" opacity="0.4"/>
 
-  <!-- Nose (small, cute button) -->
-  <path d="M 138 242 Q 152 234 166 242 Q 160 256 152 258 Q 144 256 138 242 Z" fill="#1a1a1a"/>
+  <!-- RIGHT EYE — almond-shaped -->
+  <path d="M 176 196 Q 202 178 228 196 Q 216 214 202 212 Q 188 214 176 196 Z"
+        fill="white" stroke="#111" stroke-width="5"/>
+  <ellipse cx="202" cy="197" rx="16" ry="13" fill="#111"/>
+  <ellipse cx="194" cy="191" rx="6" ry="5" fill="white"/>
+  <path d="M 176 196 Q 202 208 228 196" fill="none" stroke="#111" stroke-width="3" opacity="0.4"/>
+
+  <!-- NOSE — wide, prominent Shiba nose (not a tiny dot!) -->
+  <path d="M 132 238 Q 160 226 188 238 Q 184 260 160 264 Q 136 260 132 238 Z"
+        fill="#0d0d0d"/>
   <!-- Nose highlight -->
-  <ellipse cx="145" cy="242" rx="4" ry="3" fill="#555"/>
+  <ellipse cx="146" cy="240" rx="8" ry="6" fill="#555"/>
 
-  <!-- Happy mouth -->
-  <path d="M 136 262 Q 152 278 168 262"
-        fill="none" stroke="#1a1a1a" stroke-width="5" stroke-linecap="round"/>
+  <!-- MOUTH — Shiba's signature smug upturned smile -->
+  <path d="M 128 270 Q 160 288 192 270"
+        fill="none" stroke="#111" stroke-width="5" stroke-linecap="round"/>
+  <!-- Corner-of-mouth lines (Shiba smile detail) -->
+  <path d="M 128 270 L 120 278" stroke="#111" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 192 270 L 200 278" stroke="#111" stroke-width="4" stroke-linecap="round"/>
 
-  <!-- Cheek blush (soft light circles for cuteness) -->
-  <circle cx="70"  cy="242" r="26" fill="#e0e0e0" opacity="0.65"/>
-  <circle cx="234" cy="242" r="26" fill="#e0e0e0" opacity="0.65"/>
+  <!-- Whisker lines -->
+  <line x1="18"  y1="244" x2="58"  y2="246" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="14"  y1="258" x2="56"  y2="257" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="302" y1="244" x2="262" y2="246" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="306" y1="258" x2="264" y2="257" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
 
-  <!-- Left cheek whisker lines -->
-  <line x1="25" y1="233" x2="62"  y2="237" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="22" y1="246" x2="60"  y2="248" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="27" y1="258" x2="63"  y2="257" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
-
-  <!-- Right cheek whisker lines -->
-  <line x1="279" y1="233" x2="242" y2="237" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="282" y1="246" x2="244" y2="248" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
-  <line x1="277" y1="258" x2="241" y2="257" stroke="#bbb" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Curly tail — Shiba's iconic curled tail, peeking from behind right side -->
+  <path d="M 272 310 Q 318 272 314 228 Q 310 188 288 180 Q 272 175 268 190"
+        fill="none" stroke="#111" stroke-width="18" stroke-linecap="round"/>
+  <path d="M 272 310 Q 318 272 314 228 Q 310 188 288 180 Q 272 175 268 190"
+        fill="none" stroke="white" stroke-width="9" stroke-linecap="round"/>
 
 </svg>
