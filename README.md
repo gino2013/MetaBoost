@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/logo.png" width="420" alt="MetaBoost Shiba"/>
+  <img src="assets/logo.png" width="630" alt="MetaBoost Shiba"/>
   <h1>MetaBoost</h1>
   <p><em>He posts once. Everyone sees it.</em></p>
 
