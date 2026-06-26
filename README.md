@@ -1,6 +1,6 @@
 <div align="center">
   <img src="assets/logo.png" width="945" alt="MetaBoost Shiba"/>
-  <h1>MetaBoost</h1>
+  <h1 style="margin-top:0;padding-top:0">MetaBoost</h1>
   <p><em>He posts once. Everyone sees it.</em></p>
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-black.svg)](https://opensource.org/licenses/MIT)
